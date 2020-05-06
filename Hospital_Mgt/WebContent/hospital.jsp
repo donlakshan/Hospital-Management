@@ -52,13 +52,13 @@ class="btn btn-primary">
 <div id="alertError" class="alert alert-danger"></div>
   
    <br>
-   
+   <div id="divItemsGrid">
    <%
       	Hospital patObj = new Hospital();
             out.print(patObj.readItems());
       %>
    
-   
+   <div>
    </div>
    </div>
    </div>
